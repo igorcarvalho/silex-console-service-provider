@@ -1,0 +1,12 @@
+{
+    "require" : {
+        "php" : ">=5.3",
+        "symfony/console" : "2.6.*@dev"
+    },
+    "minimum-stability" : "dev",
+    "autoload" : {
+        "psr-0" : {
+            "Carvinc\\" : "src/"
+        }
+    }
+}

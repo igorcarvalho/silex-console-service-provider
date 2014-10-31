@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/vendor/autoload.php';
+
+use Carvinc\Command\Command;
+use Carvinc\Provider\ConsoleServiceProvider;
+
+$app = new Silex\Application();
+
+$app->register(new ConsoleServiceProvider(), [
+    'console.name' => 'Teste',
+    'console.version' => '0.0.1'
+]);
+$app['console']->add(new Command());
+$app['console']->run();
+
