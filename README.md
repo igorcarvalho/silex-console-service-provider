@@ -1,6 +1,6 @@
 # Silex Console Service Provider
 
-This packaget provides a `Symfony\Component\Console` to the Silex base
+This packaget provides a `Symfony\Component\Console` to the Silex base at version 2.0.*
 
 ## Install
 
