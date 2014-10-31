@@ -1,11 +1,11 @@
 {
-    "name" : "igor822/silex-console-service-provider",
+    "name" : "igorcarvalho/silex-console-service-provider",
     "description" : "Use the console like all commands into Symfony\\Console",
     "type" : "library",
     "authors" : [
         {
             "name" : "Igor Carvalho",
-            "email" : "igor822@gmail.com",
+            "email" : "igor@igorcarvalho.com",
             "homepage" : "http://igorcarvalho.com",
             "role" : "Developer"
         }
