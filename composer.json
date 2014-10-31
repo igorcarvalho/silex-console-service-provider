@@ -1,8 +1,21 @@
 {
+    "name" : "igor822/silex-console-service-provider",
+    "description" : "Use the console like all commands into Symfony\\Console",
+    "type" : "library",
+    "authors" : [
+        {
+            "name" : "Igor Carvalho",
+            "email" : "igor822@gmail.com",
+            "homepage" : "http://igorcarvalho.com",
+            "role" : "Developer"
+        }
+    ],
+    "license" : "MIT",
     "require" : {
         "php" : ">=5.3",
         "symfony/console" : "2.6.*@dev"
     },
+    "version" : "1.0.0",
     "minimum-stability" : "dev",
     "autoload" : {
         "psr-0" : {
