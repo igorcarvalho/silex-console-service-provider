@@ -16,7 +16,7 @@ class Application extends ConsoleApplication {
     }
 
     public function getApplication() {
-        $this->app;
+        return $this->app;
     }
 
 }
